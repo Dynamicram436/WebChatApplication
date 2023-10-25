@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+*{
+    padding:0;
+    margin:0;
+    box-sizing:border-box;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background: rgb(153, 122, 254);
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+section.chat_section{
+    width: 800px;
+    max-width: 90%;
+    background: #bc90f9; 
+     box-shadow: 0px 0px 7px 4px ivory;
+}
+.brand{
+    padding: 20px;
+    background: #a64bf6;
+    display: flex;
+    align-items: center;
+}
+.brand img{
+    height:29px;
+}
+.brand h1{
+    text-transform: uppercase;
+    color:#444;
+    font-size: 20px;
+    margin-left: 10px;
+}
+.message_area{
+    height: 500px;
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+    overflow-y: auto;
+    padding-top: 40px;
+}
+textarea{
+    width: 100%;
+    border: none;
+    padding: 20px;
+    font-size: 16px;
+    outline: none;
+    background: rgb(218 224 218);
+}
+
+.message{
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom:35px;
+    max-width: 300px;
+    position: relative;
+}
+.incoming{
+    background: #c99fe9;
+    color:black;
+    box-shadow:3px 0px 2px 1px ivory;
+}
+.outgoing{
+    background: rgb(234 211 237);;
+    color:rgb(4, 3, 2);
+    margin-left:auto;
+    box-shadow:0px 0px 2px 2px ivory;
+}
+.message h4{
+    position: absolute;
+    top:-20px;
+    left:0;
+    color:#333;
+    font-size: 14px;
+}
+.send-button {
+    height: 48px;
+    font-size: 16px;
+    border: none;
+    padding: 0px 20px;
+    outline: none;
+    background-color: #fff;
+    cursor: pointer;
+}
